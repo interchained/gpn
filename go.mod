@@ -1,4 +1,4 @@
-module github.com/tendermint/spn
+module github.com/interchained/gpn
 
 go 1.16
 
