@@ -3,19 +3,19 @@ module github.com/interchained/gpn
 go 1.16
 
 require (
-	github.com/interchained/cosmos-sdk v0.42.6
+	github.com/interchained/cosmos-sdk v0.42.7 // bump
 	github.com/gogo/protobuf v1.3.3
 	github.com/golang/protobuf v1.5.2
 	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
-	github.com/interchained/cosmos-proto v0.3.1
+	github.com/interchained/cosmos-proto v0.3.2 // bump
 	github.com/spf13/cast v1.3.1
 	github.com/spf13/cobra v1.1.3
 	github.com/stretchr/testify v1.7.0
 	github.com/interchained/gpm v0.0.0-20210625155357-5a2c8d79013b
-	github.com/interchained/genesismint v0.34.11
-	github.com/interchained/gm-db v0.6.4
+	github.com/interchained/genesismint v0.34.12 // bump
+	github.com/interchained/gm-db v0.6.5 // bump 
 	google.golang.org/genproto v0.0.0-20210617175327-b9e0b3197ced
 	google.golang.org/grpc v1.38.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
