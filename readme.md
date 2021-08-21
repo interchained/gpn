@@ -1,24 +1,24 @@
-# Starport Network
+# Genesis Network
+Genesis is a fork of Starport made possible by Electronero Network, through Interchained and Cosmos Network
+> This branch contains the source code for the 1.0 version of Genesis Network. To access the source code of the currently deployed proof of concept, visit the [`master-legacy`](https://github.com/interchained/gpn/tree/master-legacy) branch.
 
-> This branch contains the source code for the 1.0 version of Starport Network. To access the source code of the currently deployed proof of concept, visit the [`master-legacy`](https://github.com/tendermint/spn/tree/master-legacy) branch.
-
-**spn** is a blockchain built using Cosmos SDK and Tendermint and created with [Starport](https://github.com/tendermint/starport).
+**gpn** is a blockchain built using Cosmos SDK and Genesismint and created with [Genesis](https://github.com/interchained/genesis).
 
 ## Get started
 
 ```
-starport chain serve
+genesis chain serve
 ```
 
 `serve` command installs dependencies, builds, initializes, and starts your blockchain in development.
 
 ### Configure
 
-Your blockchain in development can be configured with `config.yml`. To learn more, see the [Starport docs](https://docs.starport.network).
+Your blockchain in development can be configured with `config.yml`. To learn more, see the [Genesis docs](https://docs.interchained.com/genesis).
 
 ### Launch
 
-To launch your blockchain live on multiple nodes, use `starport network` commands. Learn more about [Starport Network](https://github.com/tendermint/spn).
+To launch your blockchain live on multiple nodes, use `starport network` commands. Learn more about [Genesis Network](https://github.com/interchained/gpn).
 
 ### Web Frontend
 
@@ -30,7 +30,7 @@ npm install
 npm run serve
 ```
 
-The frontend app is built using the `@starport/vue` and `@starport/vuex` packages. For details, see the [monorepo for Starport front-end development](https://github.com/tendermint/vue).
+The frontend app is built using the `@genesis/vue` and `@genesis/vuex` packages. For details, see the [monorepo for Genesis front-end development](https://github.com/interchained/vue).
 
 ## Release
 To release a new version of your blockchain, create and push a new tag with `v` prefix. A new draft release with the configured targets will be created.
@@ -46,14 +46,16 @@ After a draft release is created, make your final changes from the release page 
 To install the latest version of your blockchain node's binary, execute the following command on your machine:
 
 ```
-curl https://get.starport.network/tendermint/spn@latest! | sudo bash
+curl https://get.interchained.com/interchained/gpn@latest! | sudo bash
 ```
-`tendermint/spn` should match the `username` and `repo_name` of the Github repository to which the source code was pushed. Learn more about [the install process](https://github.com/allinbits/starport-installer).
+`genesis/gpn` should match the `username` and `repo_name` of the Github repository to which the source code was pushed. Learn more about [the install process](https://github.com/interchained/genesis-installer).
 
 ## Learn more
 
+- [Genesis](https://github.com/interchained/genesis)
+- [Genesis Docs](https://docs.interchained.com/genesis)
+Genesis is a fork of Starport 
 - [Starport](https://github.com/tendermint/starport)
 - [Starport Docs](https://docs.starport.network)
 - [Cosmos SDK documentation](https://docs.cosmos.network)
 - [Cosmos SDK Tutorials](https://tutorials.cosmos.network)
-- [Discord](https://discord.gg/W8trcGV)
